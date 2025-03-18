@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/*=========== Content Styling============*/
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+#container {
+    margin: 1em 2em 1.5em;
+    display: grid;
+    gap: 0.5em;
+    height: 100vh;
+}
